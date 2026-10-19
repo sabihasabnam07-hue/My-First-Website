@@ -1,31 +1,105 @@
+let age = 20;
+if (age > 18){
+console.log("Adult")
+}
+else{
+    console.log("young")
+}
 
-document.addEventListener("DOMContentLoaded", function () {
 
-    // Welcome message
-    alert("Welcome to Sabiha's Website!");
+let price = 50;
+if (price < 100) {
+    console.log("low price")
+}
+else {
+    console.log("High price")
+}
 
-    const welcome = document.querySelector(".welcome");
 
-    if (welcome) {
-        welcome.textContent = "Welcome to my website! ✨";
-    }
+let name = "Sabiha"
+if(name =="Sabiha"){
+console.log("Name Matched")
+}
+else{
+    console.log("Name not matched");
+}
 
-    // About section click event
-    const about = document.querySelector(".about");
 
-    if (about) {
-        about.addEventListener("click", function () {
-            alert("Hello! I am Sabiha. Nice to meet you!");
-        });
-    }
+let day = "Friday";
+if(day == "Friday" || day == "saturday"){
+console.log("holiday")
+}
+else{
+    console.log("Workingday");
+}
 
-    // Social links
-    const links = document.querySelectorAll(".social-links a");
 
-    links.forEach(function (link) {
-        link.addEventListener("click", function () {
-            console.log("Opening: " + link.textContent.trim());
-        });
-    });
+let height = 170;
+if (height > 180){
+console.log("very tall")
+}
+else if(height > 150) {
+console.log ("Medium height")
+}
+else{
+    console.log("short height")
+}
 
-});
+
+
+let temperature = 15;
+if(temperature < 0){
+console.log ("Very cold");
+}
+else if(temperature < 20){
+    console.log("Cold Weather")
+}
+else{
+    console.log("Warm weather")
+}
+
+
+let color = "Blue"
+if(color == "Red"){
+console.log("Red color");
+}
+else if(color == "Blue"){
+console.log("Blue color")
+}
+else {
+    console.log("Other color")
+}
+
+
+let subject = "English";
+if(subject == "Bangla" || subject == "English"){
+console.log("Language Subject");
+}
+else if(subject == "Math" || Subject == "Science"){
+console.log("General Subject");
+}
+else {
+    console.log("Other subject");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
